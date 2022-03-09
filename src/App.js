@@ -1,7 +1,9 @@
+import CodeCheck from "./components/CodeCheck";
+
 function App() {
   return (
-    <div>
-      
+    <div className="container">
+      <CodeCheck />
     </div>
   );
 }
